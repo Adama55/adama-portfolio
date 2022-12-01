@@ -1,0 +1,38 @@
+.sl-accueil
+{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%
+}
+
+.ls-navbar-accueil{
+    display: flex;
+    justify-content: space-around;    
+    margin-bottom: 80px;
+}
+
+.ls-navbar-accueil-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 22px;
+    color: black; 
+}
+.ls-navbar-accueil-link:focus {
+    background-color: #193D8C; 
+    padding: 5px 5px 70px 5px;
+    border-radius: 5px 5px  0px 0px;
+    color: white;
+}
+
+.ls-about.false{
+    display: none;
+}
+
+.ls-services.false{
+    display: none;
+}
+.ls-realisations.false {
+    display: none;
+}

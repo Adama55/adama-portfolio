@@ -1,0 +1,23 @@
+.sl-cercle
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.sl-cadre-about{
+    margin-top: -40px;
+    margin-left: 10px;
+    border: 2px solid;
+    padding: 8%;
+    border-radius: 20px;
+    line-height: 2;
+   
+    word-spacing: 5px;
+
+}
+.sl-cadre-about p {
+    font-size: 30px;
+    font-weight: 900;
+}

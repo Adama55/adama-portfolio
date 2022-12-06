@@ -1,0 +1,30 @@
+.sl-cadre-formation{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.sl-content-formation{
+    padding: 20px;
+}
+.sl-ecole-formation{
+    font-weight:600;
+    font-size: 18px;
+
+}
+.sl-lieu-periode{
+    font-style: italic;
+    font-size: 12px;
+    text-align: end;
+}
+.sl-description-formation{
+    line-height: 1.5;   
+    word-spacing: 2px;
+}
+.sl-ulstration-image{
+    width: 40%;
+}
+.sl-ulstration-image img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}

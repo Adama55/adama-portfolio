@@ -26,13 +26,13 @@
     color: white;
 }
 
-.ls-about.false{
+.ls-nav1.false{
     display: none;
 }
 
-.ls-services.false{
+.ls-nav2.false{
     display: none;
 }
-.ls-realisations.false {
+.ls-nav3.false {
     display: none;
 }

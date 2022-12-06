@@ -1,0 +1,21 @@
+.sl-petit-barre{
+    width: 20%;
+    height: 20px;
+    border-radius: 50px;
+    border: 2px solid;
+    background: linear-gradient(180deg, #FFFFFF 14.58%, rgba(177, 189, 216, 0.79) 33.33%, #193D8C 46.35%, #647DB2 57.29%, rgba(255, 255, 255, 0.81) 80.73%);
+}
+
+.sl-lien-git{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.sl-lien-git img{
+    margin-right: 10px;
+    width: 20%;
+    height: 20%;
+}

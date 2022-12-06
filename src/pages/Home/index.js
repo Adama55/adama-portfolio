@@ -1,11 +1,8 @@
 import {React, useState} from "react"
-import { useParams, Link } from 'react-router-dom'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import About from './contentHome/About'
 import Services from './contentHome/Services'
 import Realisations from './contentHome/Realisations'
-import HomeLayout from "./HomeLayout"
-
 import './Home.css'
 import '../../styles/Theme.css'
 
@@ -34,19 +31,21 @@ function Home () {
           </div>
           <div>
             
-            <section id= "about" className={`ls-about ${openAbout} color-white`}>
+            <section id= "about" className={`ls-nav1 ${openAbout} color-white`}>
               {
                       openAbout && <div>  <About/></div>
               }
             </section>
 
-            <section className={`ls-services ${openServices} color-white`}>
+            <section className={`ls-nav2 ${openServices} color-white`}>
                 {
                   openServices && <div> <Services/> </div>
                 }
             </section>
-            <section className={`ls-realisations ${openRealisations} color-white`}>
-              mes realisations sont ici
+            <section className={`ls-nav3 ${openRealisations} color-white`}>
+                {
+                  openRealisations && <div> <Realisations/> </div>
+                }
             </section>
           </div> 
       </div>

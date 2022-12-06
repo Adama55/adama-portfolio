@@ -1,0 +1,38 @@
+.sl-services-header{
+    width: 30%;
+    color: black;
+    background-color: white;    
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px 10px 10px 0;
+}
+
+.sl-services-header h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.sl-services-content{
+    border: 1px solid;
+    margin-top: -40px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.sl-image-concep{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.sl-services-content p{
+    width: 40%;
+    margin-left: 3%;
+    line-height: 2;   
+    word-spacing: 5px;
+    
+    
+}
+.sl-image-concep img{
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+    
+}

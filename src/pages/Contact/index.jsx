@@ -38,7 +38,7 @@ function Contact () {
 
 							
 								<p>
-									<a href="mailto:contact@ohmyfood.com">adamaDev55@gmail.com</a>
+									<a href="mailto:adamadev55@gmail.com<">adamaDev55@gmail.com</a>
 									<br/>text<br/>hhhh<br/>
 								</p>
 							

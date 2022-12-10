@@ -1,3 +1,6 @@
+.sl-single-realisation{
+    margin-bottom: 50px;
+}
 .sl-petit-barre{
     width: 20%;
     height: 20px;
@@ -18,4 +21,11 @@
     margin-right: 10px;
     width: 20%;
     height: 20%;
+}
+
+@media screen and (max-width: 800px){
+    .sl-lien-git{
+        width: 80%;
+    }
+
 }

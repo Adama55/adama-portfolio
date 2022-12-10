@@ -1,0 +1,18 @@
+.sl-mon-cv{
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 2px solid;
+}
+.sl-mon-cv img{
+    width: 100%;
+}
+.sl-mon-cv p, a {
+    text-decoration: none;
+    color: white;
+    opacity: 1;
+    text-align: center;
+    padding: 5px;
+}
+.sl-mon-cv a:hover{
+    background:linear-gradient(5.3deg, #4C5C7C 15.08%, rgba(76, 92, 124, 0) 67.78%);
+}

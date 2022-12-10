@@ -1,35 +1,42 @@
 import React from "react"
-import IconGit from '../../../../assets/imageRealisation/iconGit.png'
 import './Realisations.css'
+import RealisationsData from "../../../../assets/Datas/RealisationsData"
 
 function Realisations() {
     return (
         <div>
-            <div>
-            <div className="sl-petit-barre">
-            </div>
-            <div className="sl-realisations-header">
-                <h2> Transformez une maquette en site web (HTML & CSS) </h2>
-            </div>
-            <div className="sl-realisations-content">
-                <p>
-                    A l'issu de ce projet, je suis capable d':
-                    <ul>
-                        <li>Etudier et découper une maquette;</li>
-                        <li>Intégrer le contenu d’un site web conformément à la maquette;</li>
-                        <li>Implémenter l’interface responsive;</li>
-                    </ul>
-                </p> 
-                <p>
-                     <a href="https://github.com/Adama55/Booki-reservation" target="_blank" className="sl-lien-git">
-                        <img src={IconGit} alt="logo gitHub"/> 
-                        Code BOOKI-reser vation est disponible ici
-                    </a>
-                </p>                                 
-            </div>
-            </div>
-            <div></div>
-
+            {
+                RealisationsData.map((index) => {
+                    return(
+                        <div key={index.id} className ="sl-single-realisation">
+                            <div className="sl-petit-barre">
+                            </div>
+                            <div className="sl-realisations-header">
+                                <h2> {index.titre}</h2>
+                            </div>
+                            <div className="sl-realisations-content">
+                                <p>
+                                    {index.content}
+                                    <ul>
+                                        {index.acquis.map((content, indexe) => {
+                                            return (
+                                                <li key={indexe}>{content}</li>
+                                            )
+                                        })}
+                                    </ul>
+                                </p> 
+                                <p>
+                                    <a href={index.lien} target="_blank" className="sl-lien-git">
+                                        <img src={index.icone} alt="logo gitHub"/>  
+                                        {index.nomProjet}
+                                    </a>
+                                </p>                                 
+                            </div>
+                        </div>
+                    )
+                })
+            }            
+            
         </div>
     )
 }

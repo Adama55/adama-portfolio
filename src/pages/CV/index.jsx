@@ -19,7 +19,6 @@ function CV () {
             <Link className="ls-navbar-accueil-link" onClick={() => {setOpenMonCV(true); setOpenEngSocial(false)}}>
              Curriculum vitæ
             </Link>
-
             <Link className="ls-navbar-accueil-link" onClick={() => {setOpenEngSocial(true); setOpenMonCV(false)}}>
               Engagement Social 
             </Link>        

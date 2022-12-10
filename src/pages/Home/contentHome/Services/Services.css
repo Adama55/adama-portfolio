@@ -34,6 +34,24 @@
 .sl-image-concep img{
     width: 30%;
     height: auto;
-    object-fit: cover;
-    
+    object-fit: cover;    
+}
+@media screen and (max-width: 800px){
+    .sl-services-header{
+        width: 80%;
+    }
+    .sl-image-concep{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .sl-services-content p{
+        width: 90%;       
+    }
+    .sl-image-concep img{
+        width: 50%;
+        height: 220px;
+        margin-bottom:30px;  
+    }
+
 }

@@ -2,5 +2,44 @@
     margin-top: 200px;
     margin-left: 10%;
     margin-right: 10%;
+    display: flex;
+    align-items: center;
     color: white;
+}
+.ls-conatct img {
+    border-radius: 30px;   
+}
+.sl-content-contact{
+    margin-left: 5%;
+}
+.sl-content-contact a{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.sl-content-contact a:hover {
+    background:linear-gradient(5.3deg, #4C5C7C 15.08%, rgba(76, 92, 124, 0) 67.78%);
+}
+.sl-content-contact a img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+@media screen and (max-width: 800px){
+    .ls-conatct{
+        flex-direction: column;
+        align-items: flex-start;
+        color: white;
+    }
+    .sl-content-contact a{
+        font-size: 20px;
+        border-radius: 10px;
+    }
+    .ls-conatct img {
+        height: 300px;
+        border-radius: 10px;
+           
+    }   
 }

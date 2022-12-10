@@ -1,5 +1,6 @@
 import React from "react"
 import './About.css'
+import ImPortraitmin from '../../../../assets/imPortraitmin.png'
 
 
 function About (){
@@ -8,6 +9,7 @@ function About (){
             <div className="sl-cercle">
             </div>
             <div className="sl-cadre-about">
+                <p className="sl-portait-min"><img src={ImPortraitmin} alt="capture du porttrait adama"/> </p>
                 <p> Je suis FOFANA Adama, </p>           
                 Diplômé en informatique et ingénierie des systèmes complexes, je me suis spécialisé en développement web (front-end). Passionné par l'univers du web en particulier la partie visuelle du web, j'ai eu la chance de réaliser ou contribuer à plusieurs projets au cours de ma formation. Je souhaite évoluer dans une entreprise spécialisée dans les domaines du web ( intégration web, développement front-end ou web design). Où je mobiliserai toutes mes compétences (techniques et comportementales) et ressources pour la réussite de l'entreprise.
                 Rigoureux, autonome et collaboratif, je suis capable de:

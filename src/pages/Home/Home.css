@@ -36,3 +36,18 @@
 .ls-nav3.false {
     display: none;
 }
+@media screen and (max-width: 800px){
+    .ls-navbar-accueil-link {
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 17px;
+        color: black; 
+    }
+
+}
+@media screen and (max-width: 450px){
+    .ls-navbar-accueil-link {
+        font-size: 10px;
+    }
+
+}

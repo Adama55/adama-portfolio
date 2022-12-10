@@ -1,0 +1,25 @@
+.sl-cerle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 4px;
+}
+.sl-range-cercle{
+    display: flex;
+    margin-bottom: 3px;
+    margin-top: 20px;
+}
+
+#false {
+    border: 1px solid;
+}
+#true {
+    background: radial-gradient(50% 50% at 50% 50%, #FCFCFC 21.87%, rgba(252, 252, 252, 0.324441) 58.85%, #FFFFFF 90.62%);;
+    border: 1px solid;
+}
+.sl-competences li {      
+    font-size: 25px;   
+}
+.sl-competences{      
+    margin-left: 10px;   
+}

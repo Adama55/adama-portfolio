@@ -11,7 +11,7 @@
     margin-right: 30px;
     padding-top: 45px;
 }
-.l_header_img{
+.sl_header_img{
     width: 240px;
     height: 50px;
 }
@@ -51,4 +51,39 @@
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 160px;
+}
+
+@media screen and (max-width: 800px) {
+    .ls-navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .sl_header_img{
+        width: 200px;
+        height: 40px;
+    }
+    .ls-navbar{
+        display: flex;
+        justify-content:space-between;
+        align-items:flex-start;
+    }
+    .sl_header_nav{
+        width: 95%;
+    } 
+    .sl_header_link{
+        font-weight: 800;
+        font-size: 18px; 
+    }
+    .ls-photo-head{
+        width: 220px;
+        height: 200px;
+    }
+    .ls-line{
+        margin-top: -100px;
+    }
+    .ls-cadre-blanc{
+        height:100px;
+        background-color: white;
+        margin-top: 170px;
+    }
 }

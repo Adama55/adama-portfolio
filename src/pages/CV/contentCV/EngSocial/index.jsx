@@ -1,5 +1,6 @@
 import React from "react"
 import ImPass from '../../../../assets/imPass.png'
+import './EngSociel.css'
 
 
 function EngSocial () {
@@ -15,7 +16,7 @@ function EngSocial () {
                     <li>Membre AVB-Mali (Association Vaincre le Begaiement au Mali)</li>
                     <li>Finaliste du Premier concours d’éloquence reservé aux personnes bègues en collaboration avec APB (association parole et begaiement). 2019</li>
                     <li>Membre organisatur de la deuxième edition</li>
-                    <img src={ImPass} alt="capture de mon passage au concours d'éloquence"/>
+                    <img className="sl-responsabilite-img" src={ImPass} alt="capture de mon passage au concours d'éloquence"/>
                 </ul>
 
             </div>

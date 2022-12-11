@@ -14,3 +14,12 @@
         margin-top: 100px;
     } 
 }
+@media screen and (max-width: 420px){
+    #box-footer {
+        height: 200px;
+        padding-left: 5%;
+        padding-top: 15%;
+        background-color:aliceblue;
+        margin-top: 100px;
+    } 
+}

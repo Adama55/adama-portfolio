@@ -29,3 +29,13 @@
     }
 
 }
+@media screen and (max-width: 420px){
+    .sl-lien-git{
+        width: 80%;
+        font-size: 12px;
+    }
+    .sl-realisations-header h2{
+        font-size: 18px;
+    }
+
+}

@@ -3,3 +3,11 @@
     margin-bottom: 50px;
     width: 80%;
 }
+
+@media screen and (max-width: 420px){
+    .sl-responsabilite-img{
+        width: 90%;
+        height: auto;
+    }
+
+}

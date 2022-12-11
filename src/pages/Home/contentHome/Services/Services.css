@@ -55,3 +55,26 @@
     }
 
 }
+@media screen and (max-width: 420px){
+    .sl-services-header{
+        width: 90%;
+    }
+    .sl-image-concep{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .sl-services-content p{
+        width: 90%;       
+    }
+    .sl-image-concep img{
+        width: 60%;
+        height: auto;
+        margin-bottom:30px;  
+    }
+    .sl-services-header h2 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+}

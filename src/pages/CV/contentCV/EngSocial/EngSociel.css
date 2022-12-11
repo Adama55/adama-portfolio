@@ -1,0 +1,8 @@
+@media screen and (max-width: 420px){
+    .sl-responsabilite img{
+        width: auto;
+        height: auto;
+        object-fit: cover;
+    }
+
+}

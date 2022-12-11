@@ -16,3 +16,9 @@
 .sl-mon-cv a:hover{
     background:linear-gradient(5.3deg, #4C5C7C 15.08%, rgba(76, 92, 124, 0) 67.78%);
 }
+@media screen and (max-width: 420px){
+    .sl-mon-cv p, a {
+        font-size: 10px;
+    }
+
+}

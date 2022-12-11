@@ -42,3 +42,35 @@
     }
 
 }
+
+@media screen and (max-width: 420px){
+    .sl-portait-min{
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 50px;
+        margin-bottom: -10px;
+    }
+    .sl-cadre-about p {
+        font-size: 20px;
+    }
+    .sl-cercle {
+        width: 40px;
+        height: 40px;
+    }
+    .sl-cadre-about{
+        margin-top: -38px;
+        margin-left: 0px;
+        border: 1px solid;
+        padding: 5% 1% 5% 3%;
+        border-radius: 20px;
+        line-height: 1.5;   
+        word-spacing: 5px;
+    
+    }
+    .sl-cadre-about img {
+        height: 150px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+}

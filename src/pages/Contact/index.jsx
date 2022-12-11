@@ -8,7 +8,11 @@ import IconGithub from '../../assets/iconGithub.png'
 
 function Contact () {
     return (
-        <section className="ls-conatct">
+        <section>
+            <div className="sl-disponibe" >
+              <p>A l'écoute d'une opportunité </p>
+            </div>
+          <div className="ls-conatct">
 			<div className="sl-portrait">
 				<img src={ImPortait} alt=" portrait de Adama Fofana"/>
 			</div>
@@ -21,6 +25,7 @@ function Contact () {
 				<br/>
 				<a href="https://twitter.com/adamaDev<"><img src={IconTweet} alt=" icon Tweet"/>Compte tweet</a>
 				<br/>
+			</div>
 			</div>							
 								
 		</section>

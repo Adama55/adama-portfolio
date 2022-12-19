@@ -13,7 +13,7 @@ function Competences() {
             <h2  > Compétences techniques</h2>
             <ul className="sl-competences">
             <Niveau cPlaint={5}/>
-            <li> HTML & CSS & Saas  </li> 
+            <li> HTML & CSS & Sass  </li> 
             <Niveau cPlaint={4}/>
             <li>Javascript & React js</li>
             <Niveau cPlaint={3}/>
@@ -23,14 +23,14 @@ function Competences() {
             <Niveau cPlaint={4}/>
             <li> Github </li>
             <Niveau cPlaint={4}/>
-            <li>Developpement electronique : FPGA, Arduino</li>
+            <li>Développement électronique : FPGA, Arduino</li>
             </ul>            
             <div>
 
             </div>
             <div className="sl-petit-barre">
             </div>
-            <h2> Soft Skils</h2>
+            <h2> Soft Skills</h2>
             <ul className="sl-competences">
             <Niveau cPlaint={5}/>
             <li> Autonomie</li>

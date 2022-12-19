@@ -11,13 +11,21 @@
 
 .sl-lien-git{
     text-decoration: none;
-    color: white;
+    color: rgb(142, 6, 205);
+    padding: 0 10px 0 0;
+    background-color: rgb(255, 255, 255,0.6);
+    border-radius: 40px;
     display: flex;
     align-items: center;
     width: 30%;
 }
+.sl-lien-git:hover{
+    background-color: rgb(255, 255, 255,0.9);
+    transition: 1s;
+}
 
 .sl-lien-git img{
+    margin-left:0px;
     margin-right: 10px;
     width: 20%;
     height: 20%;
@@ -26,6 +34,10 @@
 @media screen and (max-width: 800px){
     .sl-lien-git{
         width: 80%;
+    }
+    .sl-lien-git img{
+        width: 10%;
+        height: 10%;
     }
 
 }

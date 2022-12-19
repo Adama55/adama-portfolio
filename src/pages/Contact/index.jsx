@@ -17,13 +17,13 @@ function Contact () {
 				<img src={ImPortait} alt=" portrait de Adama Fofana"/>
 			</div>
 			<div className="sl-content-contact">
-				<a href="mailto:adamadev55@gmail.com"><img src={IconGmail} alt=" icon Gmail"/>adamaDev55@gmail.com</a>
+				<a href="mailto:adamadev55@gmail.com" target="_blank"><img src={IconGmail} alt=" icon Gmail"/>adamaDev55@gmail.com</a>
 				<br/>
-				<a href="https://github.com/Adama55"><img src={IconGithub} alt=" icon GitHub"/>Depot Git</a>
+				<a href="https://github.com/Adama55" target="_blank"><img src={IconGithub} alt=" icon GitHub"/>Dépot Git</a>
 				<br/>
-				<a href="https://www.linkedin.com/in/fofana-adama/"><img src={IconLink} alt=" icon linkedin"/>Profil Linkedin</a>
+				<a href="https://www.linkedin.com/in/fofana-adama/" target="_blank"><img src={IconLink} alt=" icon linkedin"/>Profil Linkedin</a>
 				<br/>
-				<a href="https://twitter.com/adamaDev<"><img src={IconTweet} alt=" icon Tweet"/>Compte tweet</a>
+				<a href="https://twitter.com/adamaDev<" target="_blank"><img src={IconTweet} alt=" icon Tweet"/>Compte Twitter</a>
 				<br/>
 			</div>
 			</div>							

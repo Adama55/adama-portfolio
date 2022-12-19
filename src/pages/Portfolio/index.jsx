@@ -21,7 +21,7 @@ function Portfolio () {
             </Link>
 
             <Link className="ls-navbar-accueil-link" onClick={() => {setOpenExperiences(true); setOpenFormations(false); setOpenCompetences(false)}}>
-              Experiences
+              Expériences
             </Link>
             <Link className="ls-navbar-accueil-link" onClick={() => {setOpenCompetences(true); setOpenExperiences(false); setOpenFormations(false)}}>
               Compétences

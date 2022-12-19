@@ -1,8 +1,8 @@
 import IconGit from '../imageRealisation/iconGit.png'
 import IconFigma from '../imageRealisation/iconFigma.png'
 import IconDefault from '../imageRealisation/iconDefault.png'
-
-const RealisationsData = 
+ 
+const RealisationsData =
 [
     {
         "id" : "21",
@@ -15,11 +15,11 @@ const RealisationsData =
         ],
         "lien" : "https://github.com/Adama55/Booki-reservation",
         "icone" : IconGit,
-        "nomProjet" : "Code BOOKI-reservation est disponible ici"
+        "nomProjet" : "Code BOOKI-réservation est disponible ici"
     },
     {
         "id" : "22",
-        "titre":"Dynamisez une page web avec des animations CSS",
+        "titre": "Dynamisez une page web avec des animations CSS",
         "content":"La mission demandée pour ce projet était de développer un site web dynamique, mobile pour une startup. A l’issu de ce projet je suis en mesure de :",
         "acquis" :[
             "Mettre en œuvre des effets CSS graphiques avancés",
@@ -34,7 +34,7 @@ const RealisationsData =
     },
     {
         "id" : "23",
-        "titre":"Optimisez un site web (réferencement SEO et Accessibilité)",
+        "titre":"Optimisez un site web (référencement SEO et Accessibilité)",
         "content":"La mission demandée était d’optimiser le site d’une agence dont, en tapant le nom sur internet, il apparaît seulement en deuxième page des moteurs de recherche. A l’issu ce projet, je suis capable de :",
         "acquis" :[
             "Réaliser l’audit d’un site web",
@@ -83,7 +83,7 @@ const RealisationsData =
         "acquis" : [
             "Développer une application web de A - Z en React Js",
             "Mettre en place les composants fonctionnels",
-            "Utiliser les hooks predéfinis ou crées ",
+            "Utiliser les hooks prédéfinis ou créés ",
             "Mettre en place un plan de test"
         ],
         "lien" : "https://github.com/Adama55/Projet-kasa",
@@ -100,11 +100,11 @@ const RealisationsData =
         ],
         "lien" : "https://www.figma.com/file/qnaRCzaXnBNLcKCcZ5QDrl/Untitled?node-id=0%3A1&t=0BczjkcyCcdbbKx6-1",
         "icone" :IconFigma,
-        "nomProjet" : " Maquette de mon portefolio sous Figma"
+        "nomProjet" : " Maquette de mon portfolio sous Figma"
     },
     {
         "id" : "28",
-        "titre":"Readaction d'un article scientifique en anglais",
+        "titre": "Readaction d'un article scientifique en anglais",
         "content":"L’objectif du projet est de s’initier à la recherche scientifique. J’ai rédigé un article scientifique tout en répondant au besoin du cahier de charge. A l'issue de ce projet, je suis capable de mener une recherche scientifique et de rédiger un document de synthèse.",
         "acquis" :[],
         "lien" :"https://drive.google.com/file/d/1k1qaPiCPoIvUCbq2EA4ZhV7kU7uvSg0p/view?usp=sharing",
@@ -113,7 +113,7 @@ const RealisationsData =
     },
     {
         "id" : "29",
-        "titre":"Simuler un projet d'innovation, en Master_2_(2019)",
+        "titre":"Simuler un projet d'innovation, en Master _2_(2019)",
         "content":"L’objectif du projet est de simuler un projet innovant. Faire une étude du marché et réaliser un tableau comparatif des concurrents. Et présenter notre pitch à la recherche d’un investisseur. A l’issue de ce projet, je suis capable de contribuer à l'étude du marché d’un service ou produit donné et remplir le tableau SWOT l'acronyme des mots anglais strengths, weaknesses, opportunities et threats (en français : forces, faiblesses, opportunités et menaces).",
         "acquis" : [],
         "lien" : "https://docs.google.com/presentation/d/1DRiLhQ9I0Zh819f-e-h4Ag5BrGFeqDX3MD4betNNCUs/edit?usp=sharing",
@@ -129,7 +129,7 @@ const RealisationsData =
         "icone" : IconDefault,
         "nomProjet" : " Rapport du projet : Etude et réalisation d'une alarme à base d'une photo-résistance"
     },
-    
-
+   
+ 
 ]
 export default RealisationsData

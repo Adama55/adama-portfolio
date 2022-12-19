@@ -19,6 +19,12 @@ function Header() {
                     <Link className='sl_header_link color-white font-Montserrat' to="/portfolio"> PORTFOLIO</Link>
                     <Link className='sl_header_link color-white font-Montserrat' to="/cv"> CV</Link>
                     <Link className='sl_header_link color-white font-Montserrat' to="/contact"> CONTACT</Link>
+                </nav>
+                <nav className='' id="sl-nav-fix">
+                    <Link className='sl_header_link color-white font-Montserrat' to="/"> ACCUEIL </Link>
+                    <Link className='sl_header_link color-white font-Montserrat' to="/portfolio"> PORTFOLIO</Link>
+                    <Link className='sl_header_link color-white font-Montserrat' to="/cv"> CV</Link>
+                    <Link className='sl_header_link color-white font-Montserrat' to="/contact"> CONTACT</Link>
                 </nav>                    
             </div>
             <div className='sl-ceinture'>

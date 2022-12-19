@@ -21,12 +21,11 @@ function Home () {
             <Link className="ls-navbar-accueil-link" onClick={() => {setOpenAbout(true); setOpenServices(false); setOpenRealisations(false)}}>
               About
             </Link>
-
             <Link className="ls-navbar-accueil-link" onClick={() => {setOpenServices(true); setOpenAbout(false); setOpenRealisations(false)}}>
               Services
             </Link>
             <Link className="ls-navbar-accueil-link" onClick={() => {setOpenRealisations(true); setOpenServices(false); setOpenAbout(false)}}>
-              Realisation
+              Realisations
             </Link>         
           </div>
           <div>

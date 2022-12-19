@@ -15,8 +15,9 @@
 .sl-content-contact a{
     display: flex;
     align-items: center;
-    font-size: 30px;
+    font-size: 25px;
     border-radius: 10px;
+    color: #fff;
 }
 .sl-content-contact a:hover {
     background:linear-gradient(5.3deg, #4C5C7C 15.08%, rgba(76, 92, 124, 0) 67.78%);

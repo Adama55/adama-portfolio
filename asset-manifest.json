@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/adama-portfolio/static/css/main.f48d15a6.css",
+    "main.js": "/adama-portfolio/static/js/main.1c5cf0ca.js",
+    "static/js/787.fc83807a.chunk.js": "/adama-portfolio/static/js/787.fc83807a.chunk.js",
+    "static/media/affiche.png": "/adama-portfolio/static/media/affiche.61e6cdd02f4bb960e2ba.png",
+    "static/media/banner-back.png": "/adama-portfolio/static/media/banner-back.302f51f648bb1debee8d.png",
+    "static/media/imManip.png": "/adama-portfolio/static/media/imManip.b0c6eaea2e99bfea4d98.png",
+    "static/media/imEnie.png": "/adama-portfolio/static/media/imEnie.dcd13bd2d25aab741f7b.png",
+    "static/media/imPass.png": "/adama-portfolio/static/media/imPass.1ef9218d954a2a330e8f.png",
+    "static/media/imElectronique.png": "/adama-portfolio/static/media/imElectronique.e21513db9693238a1543.png",
+    "static/media/CV_FOFANA_Adama_Dev_react.pdf": "/adama-portfolio/static/media/CV_FOFANA_Adama_Dev_react.63f56a017a7c0d861211.pdf",
+    "static/media/imCV.png": "/adama-portfolio/static/media/imCV.e2ff0ba3544fe411069e.png",
+    "static/media/imElectro.png": "/adama-portfolio/static/media/imElectro.c0586525093a14130ffb.png",
+    "static/media/carteVisite.png": "/adama-portfolio/static/media/carteVisite.5280b5bfcd5d61e880fa.png",
+    "static/media/imDevWeb.png": "/adama-portfolio/static/media/imDevWeb.7a78db2056378ecfd2dc.png",
+    "static/media/imCtcase.png": "/adama-portfolio/static/media/imCtcase.cab12373cf1a8856f899.png",
+    "static/media/imPortrait.png": "/adama-portfolio/static/media/imPortrait.53242c17823178f82e8b.png",
+    "static/media/imPortraitmin.png": "/adama-portfolio/static/media/imPortraitmin.1e5d947ea40885929c26.png",
+    "static/media/imPortfolio.PNG": "/adama-portfolio/static/media/imPortfolio.6c0bf534e72e68869fef.PNG",
+    "static/media/maPhoto.png": "/adama-portfolio/static/media/maPhoto.c10af262d4b550517b8d.png",
+    "static/media/imKadaBio.PNG": "/adama-portfolio/static/media/imKadaBio.f0bd23cfef81c4ff1c46.PNG",
+    "static/media/iconLink.png": "/adama-portfolio/static/media/iconLink.c5669459a97a7b08d6e5.png",
+    "static/media/logotype.png": "/adama-portfolio/static/media/logotype.05bdf92ee820b2fa0291.png",
+    "index.html": "/adama-portfolio/index.html",
+    "main.f48d15a6.css.map": "/adama-portfolio/static/css/main.f48d15a6.css.map",
+    "main.1c5cf0ca.js.map": "/adama-portfolio/static/js/main.1c5cf0ca.js.map",
+    "787.fc83807a.chunk.js.map": "/adama-portfolio/static/js/787.fc83807a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f48d15a6.css",
+    "static/js/main.1c5cf0ca.js"
+  ]
+}

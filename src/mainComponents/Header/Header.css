@@ -148,11 +148,15 @@
         align-items:flex-start;
     }
     .sl_header_nav{
+        margin-top: 20px;
+        display: flex;
+        justify-content:space-between;
+        align-items:flex-start;
         width: 95%;
     } 
     .sl_header_link{
         font-weight: 800;
-        font-size: 14px; 
+        font-size: 12px; 
     }
     .ls-photo-head{
         width: 160px;

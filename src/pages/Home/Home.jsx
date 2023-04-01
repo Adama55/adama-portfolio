@@ -1,8 +1,8 @@
 import {React, useState} from "react"
 import { Link } from 'react-router-dom'
-import About from './contentHome/About'
-import Services from './contentHome/Services'
-import Realisations from './contentHome/Realisations'
+import About from './contentHome/About/About'
+import Services from './contentHome/Services/Services'
+import Realisations from './contentHome/Realisations/Realisations'
 import './Home.css'
 import '../../styles/Theme.css'
 

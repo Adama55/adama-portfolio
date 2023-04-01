@@ -2,9 +2,9 @@ import React from "react"
 import { useState} from "react"
 import { Link } from 'react-router-dom'
 
-import Competences from "./contentPortfolio/Competences"
-import Experiences from "./contentPortfolio/Experiences"
-import Formations from "./contentPortfolio/Formations"
+import Competences from "./contentPortfolio/Competences/Competences"
+import Experiences from "./contentPortfolio/Experiences/Experiences"
+import Formations from "./contentPortfolio/Formations/Formations"
 
 function Portfolio () {
     

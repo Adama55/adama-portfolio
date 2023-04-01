@@ -1,6 +1,6 @@
 import React from "react"
 import './Competences.css'
-import Niveau from "./Niveau"
+import Niveau from "./Niveau/Niveau"
 
 
 

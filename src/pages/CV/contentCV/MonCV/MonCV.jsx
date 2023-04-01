@@ -8,7 +8,7 @@ function MonCV () {
     <div className="sl-mon-cv">
         <p>
             <embed src={CVPDF} width="100%" height="900" type="application/pdf"/>
-        </p>        
+        </p>       
     </div>
     )
 }

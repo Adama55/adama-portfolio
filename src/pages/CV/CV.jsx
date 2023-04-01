@@ -1,10 +1,9 @@
 import {React, useState} from "react"
 import { Link } from 'react-router-dom'
-import EngSocial from './contentCV/EngSocial'
-import MonCV from "./contentCV/MonCV"
+import EngSocial from './contentCV/EngSocial/EngSocial'
+import MonCV from "./contentCV/MonCV/MonCV"
 import './CV.css'
 import '../../styles/Theme.css'
-
 
 
 

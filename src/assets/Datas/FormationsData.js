@@ -36,7 +36,7 @@ const FormationData =
             "Traitement d’information et systèmes temps réel",
             "Systèmes électroniques implantables",
             "Intelligence artificielle",
-            "Communication embarquées",
+            "Communication embarquée",
             "Initiation à la recherche scientifique"
         ],
         "ulisimage":ImElectro

@@ -5,8 +5,9 @@
 
 
 @media screen and (max-width: 420px){
-    .sl-mon-cv p, a {
-        font-size: 10px;
+    .sl-mon-cv embed{
+        width: 100%;
+        height: auto;
     }
 
 }
